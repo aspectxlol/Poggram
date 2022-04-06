@@ -1,0 +1,10 @@
+name: Poggram
+version: '${project.version}'
+main: aspectx.poggram.Poggram
+api-version: 1.17
+load: STARTUP
+description: A plugin for Poggram
+commands:
+  start:
+    description: the first thing you do when you log on the server
+    usage: /start
